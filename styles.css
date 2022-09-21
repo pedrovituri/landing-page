@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
 
 .header {
@@ -30,9 +31,12 @@ span {
 }
 
 .firstsection {
+    background-color: #1f2937;
+}
+
+.firstsection, .secondsection {
     padding-left: 150px;
     padding-right: 150px;
-    background-color: #1f2937;
 }
 
 h1 {
@@ -51,7 +55,7 @@ p {
     width: 500px;
     padding: 0px 0px 10px 0px;
     margin: 0px;
-    font-weight: 000;
+    font-weight: 100;
 }
 
 .firstpanel {
@@ -72,4 +76,27 @@ button {
     height: 30px;
     color: #f9faf8;
     border-width: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.centertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.subtext {
+    align-self: flex-end;
+    flex: content;
 }
