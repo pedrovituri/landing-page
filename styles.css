@@ -4,17 +4,11 @@ body {
 
 .header {
     display: flex;
-    flex-wrap: nowrap;
-    background-color: #1f2937;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 h3 {
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 16px;
     place-content: center start;
 }
 
@@ -22,6 +16,10 @@ h3 {
     display: flex;
     justify-content: flex-end;
     flex: auto;
+    align-items: center;
+}
+
+.toplinks, p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -29,4 +27,49 @@ h3 {
 span {
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.firstsection {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    align-self: flex-start;
+    display: block;
+    width: 400px;
+    padding-bottom: 05px;
+    margin-bottom: 0px;
+}
+
+p {
+    display: block;
+    width: 500px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-weight: 000;
+}
+
+.firstpanel {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+img {
+    padding: 40px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #f9faf8;
+    border-width: 0px;
 }
