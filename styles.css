@@ -1,5 +1,5 @@
 body {
-    font-style: Roboto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -7,11 +7,15 @@ body {
     flex-wrap: nowrap;
     background-color: #1f2937;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 16px;
+    place-content: center start;
 }
 
 .toplinks {
@@ -20,4 +24,9 @@ h3 {
     flex: auto;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+span {
+    padding-left: 16px;
+    padding-right: 16px;
 }
